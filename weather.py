@@ -18,8 +18,8 @@ def get_text_messages(message): #в телеботе все работает н�
         bot.send_message(message.chat.id, "Привет, чем я могу тебе помочь?")
     elif message.text == "/start":
 
-        start_time = datetime(datetime.now().year, datetime.now().month, datetime.now().day, 8, 52)
-        finish_time = datetime(datetime.now().year, datetime.now().month, datetime.now().day, 20, 35) #дату можно указать как на компе (как тут), или строго. Вот так
+        start_time = datetime(datetime.now().year, datetime.now().month, datetime.now().day, 8)
+        finish_time = datetime(datetime.now().year, datetime.now().month, datetime.now().day, 8, 20) #дату можно указать как на компе (как тут), или строго. Вот так
         '''
         ПРИМЕР
         datetime.datetime(2006, 11, 21, 16, 30)
