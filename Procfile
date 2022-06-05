@@ -1,1 +1,1 @@
-worker: python test_telegram_pars.py
+worker: python weather.py
